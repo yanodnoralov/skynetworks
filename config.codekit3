@@ -1013,6 +1013,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bootstrap-4.0.0\/assets\/scss\/docs.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-4.0.0\/assets\/scss\/docs-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/bootstrap-4.0.0\/assets\/scss\/docs.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4325,6 +4335,16 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/bootstrap-4.0.0\/scss\/bootstrap-reboot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-4.0.0\/scss\/bootstrap-reboot-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/bootstrap-4.0.0\/scss\/bootstrap-reboot.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4355,7 +4375,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/bootstrap-4.0.0\/scss\/bootstrap.css",
 		"oF": 0,
 		"oS": 0,
@@ -4991,6 +5011,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -5011,7 +5041,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "SkyNetworksGit",
+	"displayValue": "sky-networks-git",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

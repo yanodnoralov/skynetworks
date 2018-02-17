@@ -5,35 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-$primary:       #6b5f43;
-$secondary:		#eb5510;
-$dark: 			#141414;
-$input-bg: 		#f8f8f8;
-$input-btn-border-width: 0;
-$input-border-radius:  	 0;
-$form-group-margin-bottom: 2rem;
-
-$spacer: 1rem;
-$spacers: (
-  0: 0,
-  1: ($spacer * .25),
-  2: ($spacer * .5),
-  3: $spacer,
-  4: ($spacer * 1.5),
-  5: ($spacer * 3),
-  6: ($spacer * 5),
-  7: ($spacer * 6),
-  10: ($spacer * 10)
-);
-
-
-$container-max-widths: (
-  sm: 540px,
-  md: 84%,
-  lg: 86.5%,
-  xl: 940px
-);
-
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -69,5 +40,3 @@ $container-max-widths: (
 @import "carousel";
 @import "utilities";
 @import "print";
-
-$primary: pink; 

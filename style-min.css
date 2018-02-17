@@ -1,0 +1,6 @@
+h1, p {
+  color: #2a57be;
+  -webkit-transition: 300ms color ease-in;
+  transition: 300ms color ease-in; }
+  h1:hover, p:hover {
+    color: red; }

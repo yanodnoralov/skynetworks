@@ -1,0 +1,16 @@
+$primary-color: #2a57be;
+$text-color: #686868;
+$text-color-heading: #000;
+
+h1	{
+	color: $primary-color;
+	transition: 300ms color ease-in;
+	&:hover {
+		color: red;
+	}
+}
+
+
+p {
+	@extend h1;
+}

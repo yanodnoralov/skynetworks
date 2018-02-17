@@ -1,6 +1,37 @@
+// overwrite bootstrap variables
+$primary:       #6b5f43;
+$secondary:		#eb5510;
+$dark: 			#333;
+$input-bg: 		#f8f8f8;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 6),
+  10: ($spacer * 10)
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 84%,
+  lg: 86.5%,
+  xl: 1140px
+);
+
 $primary-color: #2a57be;
 $text-color: #686868;
 $text-color-heading: #000;
+
+// end bootstrap variables
+
+// import bootstrap file
+@import "bootstrap-4.0.0/scss/bootstrap.scss";
 
 h1	{
 	color: $primary-color;

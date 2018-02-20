@@ -17,12 +17,7 @@ $spacers: (
   10: ($spacer * 10)
 );
 
-$container-max-widths: (
-  sm: 540px,
-  md: 84%,
-  lg: 86.5%,
-  xl: 1140px
-);
+
 
 $primary-color: #2a57be;
 $text-color: #686868;
@@ -49,11 +44,56 @@ p {
 	color: $text-color
 }
 
-.jumbotron {
-	width: 1144px;
-
-}
-
 h4 {
 	text-align: center;
+	padding-bottom: 60px;
+
 }
+
+.our-services-wrapper {
+	background-color: #f5f5f5;
+	.services-nav-wrapper {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		text-align: center;
+		img {
+			display: block;
+			margin: 0 auto 18px auto;
+		}
+	}
+
+}
+
+.jumbotron {
+	margin-top: 12px;
+}
+
+.our-clients-wrapper {
+	background-color: white;
+	img {
+		display: block;
+		margin: 0 auto;
+	.col-sm {
+    	border: solid gray 2px;
+    	}
+    }
+}
+
+.section-vertical-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+

@@ -4976,6 +4976,204 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Images\/Application-Infrastructure.png": {
+		"ft": 32768,
+		"iS": 3010,
+		"oA": 0,
+		"oAP": "\/Images\/Application-Infrastructure.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/BT_logo.png": {
+		"ft": 32768,
+		"iS": 31909,
+		"oA": 0,
+		"oAP": "\/Images\/BT_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Consulting-Support.png": {
+		"ft": 32768,
+		"iS": 5000,
+		"oA": 0,
+		"oAP": "\/Images\/Consulting-Support.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/GCA-Telecom.png": {
+		"ft": 32768,
+		"iS": 33594,
+		"oA": 0,
+		"oAP": "\/Images\/GCA-Telecom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/General-Service.png": {
+		"ft": 32768,
+		"iS": 8543,
+		"oA": 0,
+		"oAP": "\/Images\/General-Service.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Hamilton.png": {
+		"ft": 32768,
+		"iS": 14057,
+		"oA": 0,
+		"oAP": "\/Images\/Hamilton.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/lcr.png": {
+		"ft": 32768,
+		"iS": 30387,
+		"oA": 0,
+		"oAP": "\/Images\/lcr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/mobile-development-phone.png": {
+		"ft": 32768,
+		"iS": 13630,
+		"oA": 0,
+		"oAP": "\/Images\/mobile-development-phone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/mobile-development.png": {
+		"ft": 32768,
+		"iS": 7271,
+		"oA": 0,
+		"oAP": "\/Images\/mobile-development.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Protocol-Expertise.png": {
+		"ft": 32768,
+		"iS": 8727,
+		"oA": 0,
+		"oAP": "\/Images\/Protocol-Expertise.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/softbank.png": {
+		"ft": 32768,
+		"iS": 13716,
+		"oA": 0,
+		"oAP": "\/Images\/softbank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/symboi-networks.png": {
+		"ft": 32768,
+		"iS": 25580,
+		"oA": 0,
+		"oAP": "\/Images\/symboi-networks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/techvalley.png": {
+		"ft": 32768,
+		"iS": 39572,
+		"oA": 0,
+		"oAP": "\/Images\/techvalley.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/teltacWorlwide.png": {
+		"ft": 32768,
+		"iS": 20627,
+		"oA": 0,
+		"oAP": "\/Images\/teltacWorlwide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/togotelecom.png": {
+		"ft": 32768,
+		"iS": 15078,
+		"oA": 0,
+		"oAP": "\/Images\/togotelecom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/trustid.png": {
+		"ft": 32768,
+		"iS": 13665,
+		"oA": 0,
+		"oAP": "\/Images\/trustid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/voiptel_final.png": {
+		"ft": 32768,
+		"iS": 9565,
+		"oA": 0,
+		"oAP": "\/Images\/voiptel_final.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/waoo-logo.png": {
+		"ft": 32768,
+		"iS": 19718,
+		"oA": 0,
+		"oAP": "\/Images\/waoo-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5041,7 +5239,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "sky-networks-git",
+	"displayValue": "SkyNetworksGit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

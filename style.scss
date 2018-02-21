@@ -29,26 +29,6 @@ $text-color-heading: #000;
 
 
 
-.my-flex-container {
-	height: 100px;
-	margin-bottom: 20px;
-}
-.my-flex-container-column {
-	height: 200px;
-	margin-bottom: 20px;
-}
-
-.my-flex-item {
-	background-color: white;
-	border-right: 1.5px solid #dcdcdc;
-	height: 160px;
-	width: 222px;
-}
-	.last-in-row {
-		border-right: none;
-	}
-
-
 h1	{
 	color: $primary-color;
 	transition: 300ms color ease-in;
@@ -82,7 +62,6 @@ h4 {
 			margin: 0 auto 18px auto;
 		}
 	}
-
 }
 
 .jumbotron {
@@ -94,13 +73,30 @@ h4 {
 		img {
 			display: block;
 			margin: 0 auto;
+			}
 		logo {
     	margin: 0 auto;
     	align-content: center;
-
-    	}
-    }
+    		}
+    		.my-flex-container {
+			height: 100px;
+			margin-bottom: 20px;
+			}
+				.my-flex-container-column {
+				height: 200px;
+				margin-bottom: 20px;
+				}	
+					.my-flex-item {
+					background-color: white;
+					border-right: 1.5px solid #dcdcdc;
+					height: 160px;
+					width: 222px;
+					}
 }
+
+.last-in-row {
+		border-right: none;
+    	}
 
 .section-vertical-padding {
 	padding-top: 50px;
@@ -108,15 +104,13 @@ h4 {
 }
 
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
+
+
+/*All Media Queries*/
+
+@media screen and (max-width: 1200px) {
+	.our-clients-wrapper { 
+		border: none;
+	}
 }
-
-
-
-
-
-
-
 

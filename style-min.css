@@ -7397,6 +7397,23 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
+.my-flex-container {
+  height: 100px;
+  margin-bottom: 20px; }
+
+.my-flex-container-column {
+  height: 200px;
+  margin-bottom: 20px; }
+
+.my-flex-item {
+  background-color: white;
+  border-right: 1.5px solid #dcdcdc;
+  height: 160px;
+  width: 222px; }
+
+.last-in-row {
+  border-right: none; }
+
 h1 {
   color: #2a57be;
   -webkit-transition: 300ms color ease-in;
@@ -7439,7 +7456,7 @@ h4 {
 
 .section-vertical-padding {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 520px; }
 
 .flex {
   display: -webkit-box;

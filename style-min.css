@@ -7428,13 +7428,7 @@ h4 {
   margin-top: 12px; }
 
 .our-clients-wrapper {
-  background-color: white;
-  /* delete this, you're not using this class
-		.my-flex-container-column {
-			height: 200px;
-			margin-bottom: 20px;
-		}
-*/ }
+  background-color: white; }
   .our-clients-wrapper img {
     display: block;
     margin: 0 auto;
@@ -7455,6 +7449,8 @@ h4 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+  .our-clients-wrapper div:nth-of-type(5n) {
+    border: none; }
 
 .last-in-row {
   border-right: none; }
@@ -7465,11 +7461,5 @@ h4 {
 
 /*All Media Queries*/
 @media screen and (max-width: 1200px) {
-<<<<<<< HEAD
-  .my-flex-item {
-=======
-  .our-clients-wrapper {
-    border: none; }
   .our-clients-wrapper .my-flex-item {
->>>>>>> 954f42a7ddf8904f5fcc9829c8b4ee62f8deda50
     border: none; } }

@@ -7428,25 +7428,33 @@ h4 {
   margin-top: 12px; }
 
 .our-clients-wrapper {
-  background-color: white; }
+  background-color: white;
+  /* delete this, you're not using this class
+		.my-flex-container-column {
+			height: 200px;
+			margin-bottom: 20px;
+		}
+*/ }
   .our-clients-wrapper img {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; }
   .our-clients-wrapper logo {
     margin: 0 auto;
     -ms-flex-line-pack: center;
         align-content: center; }
-  .our-clients-wrapper .my-flex-container {
-    height: 100px;
-    margin-bottom: 20px; }
-  .our-clients-wrapper .my-flex-container-column {
-    height: 200px;
-    margin-bottom: 20px; }
   .our-clients-wrapper .my-flex-item {
     background-color: white;
-    border-right: 1.5px solid #dcdcdc;
-    height: 160px;
-    width: 222px; }
+    border-right: 1px solid #dcdcdc;
+    height: 140px;
+    width: 222px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .last-in-row {
   border-right: none; }
@@ -7457,5 +7465,11 @@ h4 {
 
 /*All Media Queries*/
 @media screen and (max-width: 1200px) {
+<<<<<<< HEAD
   .my-flex-item {
+=======
+  .our-clients-wrapper {
+    border: none; }
+  .our-clients-wrapper .my-flex-item {
+>>>>>>> 954f42a7ddf8904f5fcc9829c8b4ee62f8deda50
     border: none; } }

@@ -71,7 +71,7 @@ hr {
   height: 0;
   overflow: visible; }
 
-h1, p, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -296,7 +296,7 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, p, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
@@ -304,7 +304,7 @@ h1, p, h2, h3, h4, h5, h6,
   line-height: 1.2;
   color: inherit; }
 
-h1, p, .h1 {
+h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
@@ -461,10 +461,10 @@ pre {
       max-width: 540px; } }
   @media (min-width: 768px) {
     .container {
-      max-width: 84%; } }
+      max-width: 720px; } }
   @media (min-width: 992px) {
     .container {
-      max-width: 86.5%; } }
+      max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
@@ -6634,8 +6634,69 @@ a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-h1, p {
+h1 {
   color: #2a57be;
   transition: 300ms color ease-in; }
-  h1:hover, p:hover {
+  h1:hover {
     color: red; }
+
+h2 {
+  padding-bottom: 20px; }
+
+p {
+  color: #686868; }
+
+h4 {
+  text-align: center;
+  padding-bottom: 60px; }
+
+.our-services-wrapper {
+  background-color: #f5f5f5; }
+  .our-services-wrapper .services-nav-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center; }
+    .our-services-wrapper .services-nav-wrapper img {
+      display: block;
+      margin: 0 auto 18px auto; }
+
+.jumbotron {
+  margin-top: 12px; }
+
+.our-clients-wrapper {
+  background-color: white;
+  /* delete this, you're not using this class
+		.my-flex-container-column {
+			height: 200px;
+			margin-bottom: 20px;
+		}
+*/ }
+  .our-clients-wrapper img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; }
+  .our-clients-wrapper logo {
+    margin: 0 auto;
+    align-content: center; }
+  .our-clients-wrapper .my-flex-item {
+    background-color: white;
+    border-right: 1px solid #dcdcdc;
+    height: 140px;
+    width: 222px;
+    display: flex;
+    align-items: center; }
+
+.last-in-row {
+  border-right: none; }
+
+.section-vertical-padding {
+  padding-top: 50px;
+  padding-bottom: 520px; }
+
+/*All Media Queries*/
+@media screen and (max-width: 1200px) {
+  .our-clients-wrapper {
+    border: none; }
+  .our-clients-wrapper .my-flex-item {
+    border: none; } }

@@ -73,25 +73,29 @@ h4 {
 		img {
 			display: block;
 			margin: 0 auto;
-			}
+			
+			// this is a neat trick. It will make sure the images don't surpass the container
+			max-width: 100%;
+			height: auto;
+		}
 		logo {
-    	margin: 0 auto;
-    	align-content: center;
-    		}
-    		.my-flex-container {
-			height: 100px;
+    		margin: 0 auto;
+			align-content: center;
+    	}
+/* delete this, you're not using this class
+		.my-flex-container-column {
+			height: 200px;
 			margin-bottom: 20px;
-			}
-				.my-flex-container-column {
-				height: 200px;
-				margin-bottom: 20px;
-				}	
-					.my-flex-item {
-					background-color: white;
-					border-right: 1.5px solid #dcdcdc;
-					height: 160px;
-					width: 222px;
-					}
+		}
+*/	
+		.my-flex-item {
+			background-color: white;
+			border-right: 1px solid #dcdcdc;
+			height: 140px;
+			width: 222px;
+			display: flex;
+			align-items: center;
+		}
 }
 
 .last-in-row {
@@ -109,6 +113,12 @@ h4 {
 @media screen and (max-width: 1200px) {
 	.my-flex-item { 
 		border: none;
+	}
+	//you're applying border none to 'our-clients-wrapper'. You should be applying it to '.our-clients-wrapper .my-flex-item'. Delete above. See line below:
+	.our-clients-wrapper { 
+		.my-flex-item {
+			border: none;
+		}
 	}
 }
 

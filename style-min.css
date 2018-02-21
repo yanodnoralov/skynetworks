@@ -7457,5 +7457,5 @@ h4 {
 
 /*All Media Queries*/
 @media screen and (max-width: 1200px) {
-  .our-clients-wrapper {
+  .my-flex-item {
     border: none; } }

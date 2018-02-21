@@ -7432,8 +7432,10 @@ h4 {
   .our-clients-wrapper img {
     display: block;
     margin: 0 auto; }
-    .our-clients-wrapper img .col-sm {
-      border: solid gray 2px; }
+    .our-clients-wrapper img logo {
+      margin: 0 auto;
+      -ms-flex-line-pack: center;
+          align-content: center; }
 
 .section-vertical-padding {
   padding-top: 50px;

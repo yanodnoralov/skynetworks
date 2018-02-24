@@ -4976,6 +4976,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Images\/about-us-img-2.png": {
+		"ft": 32768,
+		"iS": 1740969,
+		"oA": 0,
+		"oAP": "\/Images\/about-us-img-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Images\/Application-Infrastructure.png": {
 		"ft": 32768,
 		"iS": 3010,
@@ -5168,6 +5179,17 @@
 		"iS": 19718,
 		"oA": 0,
 		"oAP": "\/Images\/waoo-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Year.png": {
+		"ft": 32768,
+		"iS": 24896,
+		"oA": 0,
+		"oAP": "\/Images\/Year.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

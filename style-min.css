@@ -7415,12 +7415,14 @@ h4 {
 .hero-wrapper h1 {
   margin-top: 310px;
   text-align: center;
-  color: #2a57be; }
+  color: #2a57be;
+  font-family: 'Montserrat', sans-serif; }
 
 .hero-wrapper p {
   margin-top: 144px;
-  color: blue;
-  text-align: center; }
+  color: red;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
 
 .our-services-wrapper {
   background-color: #f5f5f5; }
@@ -7461,6 +7463,25 @@ h4 {
             align-items: center; }
   .our-clients-wrapper div:nth-of-type(5n) {
     border: none; }
+
+.about-us-wrapper {
+  background-color: white;
+  display: block; }
+  .about-us-wrapper img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .about-us-wrapper .my-flex-item-about {
+    background-color: white;
+    height: 140px;
+    width: 550px;
+    margin-top: 75px;
+    margin-bottom: 40px; }
+  .about-us-wrapper h5 {
+    padding-bottom: 25px; }
 
 .section-vertical-padding {
   padding-top: 50px;

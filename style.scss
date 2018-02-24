@@ -50,12 +50,13 @@ h4 {
 		margin-top: 310px;
 		text-align: center;
 		color: $primary-color;
-		
+		font-family: 'Montserrat', sans-serif;
 		}
 		p {
 		margin-top: 144px;
-		color: blue;
+		color: red;
 		text-align: center;
+		font-family: 'Montserrat', sans-serif;
 		}
 }
 
@@ -103,6 +104,29 @@ h4 {
 			border: none;
 		}
 }
+
+.about-us-wrapper {
+	background-color: white;
+	display: block;
+		img {
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+			align-items: center;
+		}
+		.my-flex-item-about {
+			background-color: white;
+			height: 140px;
+			width: 550px;
+			margin-top: 75px;
+			margin-bottom: 40px;
+		}
+		h5 {
+			padding-bottom:	25px;
+		}
+}
+
+	
 
 .section-vertical-padding {
 	padding-top: 50px;

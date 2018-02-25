@@ -142,6 +142,18 @@ h5 {
 	padding-bottom: 200px;
 }
 
+
+// YANS CODE
+.offset-double-img-mod img {
+	border-bottom-right-radius: 60px;
+	transform: translateX(-180px);
+	&:nth-child(2) {
+		margin-top: -200px;
+		margin-left: 100px;
+	}
+}
+// end yans code
+
 /*All Media Queries*/
 
 @media screen and (max-width: 1200px) {

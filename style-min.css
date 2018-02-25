@@ -7498,6 +7498,14 @@ h5 {
   padding-top: 50px;
   padding-bottom: 200px; }
 
+.offset-double-img-mod img {
+  border-bottom-right-radius: 60px;
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px); }
+  .offset-double-img-mod img:nth-child(2) {
+    margin-top: -200px;
+    margin-left: 100px; }
+
 /*All Media Queries*/
 @media screen and (max-width: 1200px) {
   .our-clients-wrapper .my-flex-item {

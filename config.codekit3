@@ -4976,6 +4976,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/Images\/about-us-img-2.png": {
+		"ft": 32768,
+		"iS": 1740969,
+		"oA": 0,
+		"oAP": "\/Images\/about-us-img-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Images\/Application-Infrastructure.png": {
 		"ft": 32768,
 		"iS": 3010,
@@ -4992,17 +5003,6 @@
 		"iS": 31909,
 		"oA": 0,
 		"oAP": "\/Images\/BT_logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/Images\/computer-image-1.png": {
-		"ft": 32768,
-		"iS": 1706364,
-		"oA": 0,
-		"oAP": "\/Images\/computer-image-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5113,17 +5113,6 @@
 		"iS": 25580,
 		"oA": 0,
 		"oAP": "\/Images\/symboi-networks.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/Images\/tablet-hang-image.png": {
-		"ft": 32768,
-		"iS": 1073255,
-		"oA": 0,
-		"oAP": "\/Images\/tablet-hang-image.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5272,7 +5261,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "SkyNetworksGit",
+	"displayValue": "sky-networks-git",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

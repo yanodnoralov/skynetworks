@@ -56,7 +56,6 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
@@ -7413,6 +7412,9 @@ h4 {
   text-align: center;
   padding-bottom: 60px; }
 
+h5 {
+  padding-bottom: 25px; }
+
 .hero-wrapper h1 {
   margin-top: 310px;
   text-align: center;
@@ -7479,13 +7481,18 @@ h4 {
     background-color: white;
     height: 140px;
     width: 550px;
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 40px; }
-  .about-us-wrapper h5 {
-    padding-bottom: 25px; }
 
-.about-us-img-2 {
-  float: left; }
+#hero-img {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  margin-top: -100px; }
+
+#hero-img-2 {
+  -webkit-transform: translateX(-400px);
+          transform: translateX(-400px);
+  margin-top: 110px; }
 
 .section-vertical-padding {
   padding-top: 50px;
@@ -7494,4 +7501,22 @@ h4 {
 /*All Media Queries*/
 @media screen and (max-width: 1200px) {
   .our-clients-wrapper .my-flex-item {
-    border: none; } }
+    border: none; }
+  #hero-img {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px); }
+  #hero-img-2 {
+    -webkit-transform: translateX(-375px);
+            transform: translateX(-375px);
+    margin-top: 150px; } }
+
+@media screen and (max-width: 775px) {
+  .our-clients-wrapper .my-flex-item {
+    border: none; }
+  #hero-img {
+    -webkit-transform: translateX(-250px);
+            transform: translateX(-250px); }
+  #hero-img-2 {
+    -webkit-transform: translateX(-375px);
+            transform: translateX(-375px);
+    margin-top: 150px; } }

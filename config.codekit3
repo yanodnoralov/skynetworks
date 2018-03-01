@@ -4987,6 +4987,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Images\/behind-map-img.png": {
+		"ft": 32768,
+		"iS": 42062,
+		"oA": 0,
+		"oAP": "\/Images\/behind-map-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Images\/BT_logo.png": {
 		"ft": 32768,
 		"iS": 31909,
@@ -5014,6 +5025,28 @@
 		"iS": 5000,
 		"oA": 0,
 		"oAP": "\/Images\/Consulting-Support.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/contact-map.png": {
+		"ft": 32768,
+		"iS": 184296,
+		"oA": 0,
+		"oAP": "\/Images\/contact-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/footer-img.png": {
+		"ft": 32768,
+		"iS": 10468,
+		"oA": 0,
+		"oAP": "\/Images\/footer-img.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

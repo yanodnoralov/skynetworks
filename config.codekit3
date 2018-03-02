@@ -4987,11 +4987,30 @@
 		"oT": 1,
 		"q": 100
 		},
+<<<<<<< HEAD
 	"\/Images\/BT_logo.png": {
 		"ft": 32768,
 		"iS": 31909,
 		"oA": 0,
 		"oAP": "\/Images\/BT_logo.png",
+=======
+	"\/Images\/behind-map-img.png": {
+		"ft": 32768,
+		"iS": 42062,
+		"oA": 0,
+		"oAP": "\/Images\/behind-map-img.png",
+>>>>>>> f8a481049f3e9f535586f35b4a302f6289bb88d9
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/computer-image-1.png": {
+		"ft": 32768,
+		"iS": 1706364,
+		"oA": 0,
+		"oAP": "\/Images\/computer-image-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5014,6 +5033,28 @@
 		"iS": 5000,
 		"oA": 0,
 		"oAP": "\/Images\/Consulting-Support.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/contact-map.png": {
+		"ft": 32768,
+		"iS": 184296,
+		"oA": 0,
+		"oAP": "\/Images\/contact-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/footer-img.png": {
+		"ft": 32768,
+		"iS": 10468,
+		"oA": 0,
+		"oAP": "\/Images\/footer-img.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5272,7 +5313,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "sky-networks-git",
+	"displayValue": "SkyNetworksGit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

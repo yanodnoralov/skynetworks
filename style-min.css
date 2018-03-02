@@ -7529,7 +7529,9 @@ h5 {
   margin-left: 40px; }
 
 .contact-form {
-  padding-top: 50px; }
+  border: solid 10px;
+  background-color: white;
+  padding: 10px; }
 
 .footer-wrapper img {
   margin-top: -800px; }

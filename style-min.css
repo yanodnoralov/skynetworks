@@ -7522,11 +7522,12 @@ h5 {
     margin-top: -200px;
     margin-left: 100px; }
 
-.contact-us-wrapper img {
-  -webkit-transform: translateX(-180px);
-          transform: translateX(-180px);
-  margin-top: 100px;
-  margin-left: 40px; }
+.contact-us-wrapper {
+  background-image: url("/images/contact-map.png");
+  background-position: left 75% bottom 40%;
+  background-size: 1250px;
+  background-repeat: no-repeat;
+  background-color: grey; }
 
 .contact-form {
   -webkit-transform: translateX(-25px);
@@ -7548,19 +7549,7 @@ h5 {
   max-width: 50%;
   border-radius: 0; }
 
-.btn-primary:hover .btn-primary:active .btn-primary:visited textarea::-webkit-input-placeholder {
-  color: red !important; }
-
-textarea:-moz-placeholder {
-  color: red !important; }
-
-textarea::-moz-placeholder {
-  color: red !important; }
-
-textarea:-ms-input-placeholder {
-  color: red !important; }
-
-.footer-wrapper img {
+.btn-primary:hover .btn-primary:active .btn-primary:visited .footer-wrapper img {
   margin-top: -1100px; }
 
 /*All Media Queries*/
@@ -7573,7 +7562,9 @@ textarea:-ms-input-placeholder {
   #hero-img-2 {
     -webkit-transform: translateX(-375px);
             transform: translateX(-375px);
-    margin-top: 150px; } }
+    margin-top: 150px; }
+  .contact-us-wrapper {
+    background-image: contain; } }
 
 @media screen and (max-width: 775px) {
   .our-clients-wrapper .my-flex-item {

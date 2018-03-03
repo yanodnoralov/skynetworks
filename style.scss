@@ -72,6 +72,8 @@ h5 {
 }
 
 .our-services-wrapper {
+  background-image: url("/images/services-background-img.png")!important;
+	
 	background-color: #f5f5f5;
 	.services-nav-wrapper {
 		font-family: 'Montserrat', sans-serif;
@@ -86,6 +88,7 @@ h5 {
 
 .jumbotron {
 	margin-top: 12px;
+	background-color: white;
 		p {
 		color: $text-color
 		}
@@ -151,8 +154,8 @@ h5 {
 	}
 
 .footer-vertical-padding {
-	padding-top: 200px;
-	margin-top: -200px;
+	padding-top: 300px;
+	margin-top: -100px;
 	padding-bottom: 100px;
 	background-color: #fbfdfd;
 }
@@ -188,6 +191,7 @@ h5 {
 
 /*("images/footer-img.png"),
 */
+
 .contact-us-wrapper {
   background-image: url("/images/contact-map.png"),
      	url("images/behind-map-img.png");
@@ -196,7 +200,7 @@ h5 {
      	no-repeat;
   background-position: 
   		left 75% bottom 40%,
-  		left 75% bottom 10%;
+  		left 75% bottom 100%;
   background-size: 
   		1100px,
   		100%;
@@ -216,43 +220,84 @@ h5 {
 	}
 
 .btn-block {
-float: right;
-background-color: #fff;
-color: #2a57be;
-border: solid #2a57be 1px;
-min-width: 50%;
-max-width: 50%;
-border-radius: 0;
+	float: right;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
 }
+
 .btn-primary:hover {
-float: right;
-background-color: #fff;
-color: #2a57be;
-border: solid #2a57be 1px;
-min-width: 50%;
-max-width: 50%;
-border-radius: 0;
+	float: right;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
 }
 
 .btn-primary:active {
-float: right;
-background-color: #fff;
-color: #2a57be;
-border: solid #2a57be 1px;
-min-width: 50%;
-max-width: 50%;
-border-radius: 0;
-}
-.btn-primary:visited {
-float: right;
-background-color: #fff;
-color: #2a57be;
-border: solid #2a57be 1px;
-min-width: 50%;
-max-width: 50%;
-border-radius: 0;
+	float: right;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
 }
 
+.btn-primary:visited {
+	float: right;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
+}
+
+
+.btn-default {
+	float: left;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
+}
+.btn-default:hover {
+	float: left;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
+}
+
+.btn-default:active {
+	float: left;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
+}
+
+.btn-default:visited {
+	float: left;
+	background-color: #fff;
+	color: #2a57be;
+	border: solid #2a57be 1px;
+	min-width: 50%;
+	max-width: 50%;
+	border-radius: 0;
+}
 
 
 /*

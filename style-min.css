@@ -7433,6 +7433,7 @@ h5 {
   font-family: 'Montserrat', sans-serif; }
 
 .our-services-wrapper {
+  background-image: url("/images/services-background-img.png") !important;
   background-color: #f5f5f5; }
   .our-services-wrapper .services-nav-wrapper {
     font-family: 'Montserrat', sans-serif;
@@ -7443,7 +7444,8 @@ h5 {
       margin: 0 auto 18px auto; }
 
 .jumbotron {
-  margin-top: 12px; }
+  margin-top: 12px;
+  background-color: white; }
   .jumbotron p {
     color: #686868; }
 
@@ -7504,8 +7506,8 @@ h5 {
   padding-bottom: 100px; }
 
 .footer-vertical-padding {
-  padding-top: 200px;
-  margin-top: -200px;
+  padding-top: 300px;
+  margin-top: -100px;
   padding-bottom: 100px;
   background-color: #fbfdfd; }
 
@@ -7537,7 +7539,7 @@ h5 {
 .contact-us-wrapper {
   background-image: url("/images/contact-map.png"), url("images/behind-map-img.png");
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: left 75% bottom 40%, left 75% bottom 10%;
+  background-position: left 75% bottom 40%, left 75% bottom 100%;
   background-size: 1100px, 100%;
   background-color: #fff; }
 
@@ -7581,6 +7583,42 @@ h5 {
 
 .btn-primary:visited {
   float: right;
+  background-color: #fff;
+  color: #2a57be;
+  border: solid #2a57be 1px;
+  min-width: 50%;
+  max-width: 50%;
+  border-radius: 0; }
+
+.btn-default {
+  float: left;
+  background-color: #fff;
+  color: #2a57be;
+  border: solid #2a57be 1px;
+  min-width: 50%;
+  max-width: 50%;
+  border-radius: 0; }
+
+.btn-default:hover {
+  float: left;
+  background-color: #fff;
+  color: #2a57be;
+  border: solid #2a57be 1px;
+  min-width: 50%;
+  max-width: 50%;
+  border-radius: 0; }
+
+.btn-default:active {
+  float: left;
+  background-color: #fff;
+  color: #2a57be;
+  border: solid #2a57be 1px;
+  min-width: 50%;
+  max-width: 50%;
+  border-radius: 0; }
+
+.btn-default:visited {
+  float: left;
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;

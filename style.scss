@@ -149,18 +149,12 @@ h5 {
 	padding-top: 20px;
 	padding-bottom: 100px;
 	}
-/*		.contact-us-wrapper {
-			background-color: grey;
-			}*/
 
-
-.offset-double-img-mod img {
-	border-bottom-right-radius: 60px;
-	transform: translateX(-180px);
-	&:nth-child(2) {
-		margin-top: -200px;
-		margin-left: 100px;
-	}
+.footer-vertical-padding {
+	padding-top: 200px;
+	margin-top: -200px;
+	padding-bottom: 100px;
+	background-color: #fbfdfd;
 }
 
 
@@ -174,12 +168,40 @@ h5 {
 }
 
 
-.contact-us-wrapper {
+.offset-double-img-mod img {
+	border-bottom-right-radius: 60px;
+	transform: translateX(-180px);
+	&:nth-child(2) {
+		margin-top: -200px;
+		margin-left: 100px;
+	}
+}
+
+
+/*.contact-us-wrapper {
 	background-image: url("/images/contact-map.png");
-	background-position: left 75% bottom 40%;;
-	background-size: 1250px;
+	background-position: left 75% bottom 40%;
+	background-size: 1100px;
 	background-repeat: no-repeat;
-	background-color: grey;
+	background-color: #fff;
+}*/
+
+/*("images/footer-img.png"),
+*/
+.contact-us-wrapper {
+  background-image: url("/images/contact-map.png"),
+     	url("images/behind-map-img.png");
+  background-repeat: no-repeat,
+     	no-repeat,
+     	no-repeat;
+  background-position: 
+  		left 75% bottom 40%,
+  		left 75% bottom 10%;
+  background-size: 
+  		1100px,
+  		100%;
+  background-color: #fff;
+
 }
 
 
@@ -201,21 +223,43 @@ border: solid #2a57be 1px;
 min-width: 50%;
 max-width: 50%;
 border-radius: 0;
-
 }
-.btn-primary:hover 
-.btn-primary:active
-.btn-primary:visited
+.btn-primary:hover {
+float: right;
+background-color: #fff;
+color: #2a57be;
+border: solid #2a57be 1px;
+min-width: 50%;
+max-width: 50%;
+border-radius: 0;
+}
+
+.btn-primary:active {
+float: right;
+background-color: #fff;
+color: #2a57be;
+border: solid #2a57be 1px;
+min-width: 50%;
+max-width: 50%;
+border-radius: 0;
+}
+.btn-primary:visited {
+float: right;
+background-color: #fff;
+color: #2a57be;
+border: solid #2a57be 1px;
+min-width: 50%;
+max-width: 50%;
+border-radius: 0;
+}
 
 
 
-
-
-
-.footer-wrapper img {
+/*
+.footer-wrapper
+	img {
 	margin-top: -1100px;
-	}
-
+}*/
 /*All Media Queries*/
 
 @media screen and (max-width: 1200px) {

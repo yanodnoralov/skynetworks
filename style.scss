@@ -1,8 +1,9 @@
 // overwrite bootstrap variables
-$primary:       #6b5f43;
-$secondary:		#eb5510;
-$dark: 			#333;
-$input-bg: 		#f8f8f8;
+$primary:       			#6b5f43;
+$secondary:					#eb5510;
+$dark: 						#333;
+$input-bg: 					#f8f8f8;
+$input-placeholder-color: 	#acacac;
 
 $spacer: 1rem;
 $spacers: (
@@ -197,7 +198,6 @@ float: right;
 background-color: #fff;
 color: #2a57be;
 border: solid #2a57be 1px;
-border-left: 0;
 min-width: 50%;
 max-width: 50%;
 border-radius: 0;
@@ -209,38 +209,8 @@ border-radius: 0;
 
 
 
-input::-webkit-input-placeholder {
-color: #acacac !important;
-}
- 
-input:-moz-placeholder {  
-color: #acacac !important;  
-}
- 
-input::-moz-placeholder { 
-color: #acacac !important;  
-}
-
-input:-ms-input-placeholder {  
-color: #acacac !important;  
-}
 
 
-textarea::-webkit-input-placeholder {
-color: #acacac !important;
-}
- 
-textarea:-moz-placeholder {  
-color: #acacac !important;  
-}
- 
-textarea::-moz-placeholder { 
-color: #acacac !important;  
-}
-
-textarea:-ms-input-placeholder {  
-color: #acacac !important;  
-}
 
 .footer-wrapper img {
 	margin-top: -1100px;

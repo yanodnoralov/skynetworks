@@ -1575,16 +1575,16 @@ pre {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(107, 95, 67, 0.25);
             box-shadow: 0 0 0 0.2rem rgba(107, 95, 67, 0.25); }
   .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: #acacac;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: #acacac;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #6c757d;
+    color: #acacac;
     opacity: 1; }
   .form-control::placeholder {
-    color: #6c757d;
+    color: #acacac;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
@@ -7544,34 +7544,21 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  border-left: 0;
   min-width: 50%;
   max-width: 50%;
   border-radius: 0; }
 
-.btn-primary:hover .btn-primary:active .btn-primary:visited input::-webkit-input-placeholder {
-  color: #acacac !important; }
-
-input:-moz-placeholder {
-  color: #acacac !important; }
-
-input::-moz-placeholder {
-  color: #acacac !important; }
-
-input:-ms-input-placeholder {
-  color: #acacac !important; }
-
-textarea::-webkit-input-placeholder {
-  color: #acacac !important; }
+.btn-primary:hover .btn-primary:active .btn-primary:visited textarea::-webkit-input-placeholder {
+  color: red !important; }
 
 textarea:-moz-placeholder {
-  color: #acacac !important; }
+  color: red !important; }
 
 textarea::-moz-placeholder {
-  color: #acacac !important; }
+  color: red !important; }
 
 textarea:-ms-input-placeholder {
-  color: #acacac !important; }
+  color: red !important; }
 
 .footer-wrapper img {
   margin-top: -1100px; }

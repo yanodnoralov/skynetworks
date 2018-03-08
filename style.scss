@@ -40,6 +40,7 @@ h1	{
 h2 {
 	padding-bottom: 20px;
 	padding-top: 20px;
+	font-size: 50px;
 }
 
 h3 {
@@ -58,6 +59,14 @@ h5 {
 }
 
 .hero-wrapper {
+  background-image: url("/images/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1700px;
+  background-color: #fff;
+	}
+
+/*{
 		h1 {
 		margin-top: 310px;
 		text-align: center;
@@ -70,32 +79,39 @@ h5 {
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
 		}
-}
+}*/
 
 .products-wrapper{
-	margin-bottom: 5%
-}	
-	.products-wrapper-txt-right
-	img {
+	margin-bottom: 10%;
+	margin-top: 10%;
+
+	.products-wrapper-txt-right img {
 		transform: translateX(-50%);
 		margin-top: -25%;
-	}
-
+}
 	.products-wrapper-txt-left {
-		margin-bottom: 10%
-	}
-	img {
-	transform: translateX(55%);
-	margin-top: -25%;
-	}
+		margin-bottom: 20%;
+		margin-top: 20%;
 
+	img {
+		transform: translateX(55%);
+		margin-top: -25%;
+}
+}
+	.products-wrapper-skyphone {
+		margin-bottom: 20%;
+		margin-top: 20%;
+	img {
+		transform: translateX(-10%);
+		margin-top: -25%;
+	}	
+}
+}
 
 .our-services-wrapper  {
   background-image: url("/images/about-us-seperator.png"),
      	url("/images/services-background-img.png");
-  background-repeat: no-repeat,
-     	no-repeat,
-     	no-repeat;
+  background-repeat: no-repeat;
   background-position:
     	center top 0%,
   		center bottom 70%;

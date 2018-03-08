@@ -5097,6 +5097,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Images\/hero-img.png": {
+		"ft": 32768,
+		"iS": 2145706,
+		"oA": 0,
+		"oAP": "\/Images\/hero-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Images\/lcr.png": {
 		"ft": 32768,
 		"iS": 30387,
@@ -5146,6 +5157,39 @@
 		"iS": 668627,
 		"oA": 0,
 		"oAP": "\/Images\/services-background-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Sky-Dance-image.png": {
+		"ft": 32768,
+		"iS": 435672,
+		"oA": 0,
+		"oAP": "\/Images\/Sky-Dance-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Sky-Gateways-image.png": {
+		"ft": 32768,
+		"iS": 305230,
+		"oA": 0,
+		"oAP": "\/Images\/Sky-Gateways-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/Sky-Phone-image.png": {
+		"ft": 32768,
+		"iS": 1201736,
+		"oA": 0,
+		"oAP": "\/Images\/Sky-Phone-image.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

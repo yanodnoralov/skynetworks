@@ -7,7 +7,7 @@
 		"uuidString": "0D160CBC-BC59-4617-B906-7FBEE9FDAE09"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/bootstrap-4.0.0\/.babelrc.js": {
 		"ft": 64,
@@ -5393,7 +5393,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "SkyNetworksGit",
+	"displayValue": "sky-networks-git",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

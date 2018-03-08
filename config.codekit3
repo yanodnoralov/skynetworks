@@ -4987,30 +4987,22 @@
 		"oT": 1,
 		"q": 100
 		},
-<<<<<<< HEAD
-	"\/Images\/BT_logo.png": {
-		"ft": 32768,
-		"iS": 31909,
-		"oA": 0,
-		"oAP": "\/Images\/BT_logo.png",
-=======
 	"\/Images\/behind-map-img.png": {
 		"ft": 32768,
 		"iS": 42062,
 		"oA": 0,
 		"oAP": "\/Images\/behind-map-img.png",
->>>>>>> f8a481049f3e9f535586f35b4a302f6289bb88d9
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/Images\/computer-image-1.png": {
+	"\/Images\/BT_logo.png": {
 		"ft": 32768,
-		"iS": 1706364,
+		"iS": 31909,
 		"oA": 0,
-		"oAP": "\/Images\/computer-image-1.png",
+		"oAP": "\/Images\/BT_logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5313,7 +5305,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "SkyNetworksGit",
+	"displayValue": "sky-networks-git",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

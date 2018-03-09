@@ -5141,6 +5141,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/Images\/phone-app-optimized.png": {
+		"ft": 32768,
+		"iS": 271584,
+		"oA": 0,
+		"oAP": "\/Images\/phone-app-optimized.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/Images\/Protocol-Expertise.png": {
 		"ft": 32768,
 		"iS": 8727,
@@ -5151,6 +5162,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/Images\/resources\/round-seperator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/Images\/resources\/round-seperator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/Images\/services-background-img.png": {
 		"ft": 32768,

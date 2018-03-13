@@ -7709,6 +7709,42 @@ h5 {
   max-width: 50%;
   border-radius: 0; }
 
+.btn-contact {
+  background-color: transparent !important;
+  color: #fff;
+  text-transform: uppercase;
+  border: solid #fff 1px;
+  min-width: 130px;
+  max-width: 40px;
+  border-radius: 0; }
+
+.btn-contact:hover {
+  background-color: transparent !important;
+  color: #fff;
+  text-transform: uppercase;
+  border: solid #fff 1px;
+  min-width: 130px;
+  max-width: 40px;
+  border-radius: 0; }
+
+.btn-contact:active {
+  background-color: transparent !important;
+  color: #fff;
+  text-transform: uppercase;
+  border: solid #fff 1px;
+  min-width: 130px;
+  max-width: 40px;
+  border-radius: 0; }
+
+.btn-contact:visited {
+  background-color: transparent !important;
+  color: #fff;
+  text-transform: uppercase;
+  border: solid #fff 1px;
+  min-width: 130px;
+  max-width: 40px;
+  border-radius: 0; }
+
 /*
 .footer-wrapper
 	img {

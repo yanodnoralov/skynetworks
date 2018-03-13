@@ -7,7 +7,7 @@
 		"uuidString": "0D160CBC-BC59-4617-B906-7FBEE9FDAE09"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/bootstrap-4.0.0\/.babelrc.js": {
 		"ft": 64,
@@ -4976,6 +4976,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/home-normal-colors-edit3.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/home-normal-colors-edit3.psd",
+		"oF": 0
+		},
 	"\/Images\/about-us-seperator.png": {
 		"ft": 32768,
 		"iS": 13374,
@@ -5414,7 +5421,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "SkyNetworksGit",
+	"displayValue": "Programming",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

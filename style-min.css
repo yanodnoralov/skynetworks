@@ -7445,15 +7445,9 @@ h5 {
     bottom: -1px;
     left: 0; }
 
-/*.navbar {
-	background-color : rgba(184, 229, 250, 0.5);
+.navbar {
+  background: transparent !important; }
 
-}
-
-.dropdown-toggle {
-  margin-left:5px;
-  width:100%;
-}*/
 .span-line {
   display: block;
   background-color: #2a57be;

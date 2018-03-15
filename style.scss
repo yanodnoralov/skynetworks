@@ -86,8 +86,24 @@ h5 {
 
 .navbar {
 	background: rgba(0, 0, 0, 0.0) !important;
-
+	.dropdown-menu {
+	  left: 50%;
+	  right: auto;
+	  text-align: center;
+	  transform: translate(-50%, 0);
+	  background-color: rgba(0, 0, 0, 0.0) !important;
+	  border: none;
+		.dropdown-item {
+	 	color: #fff;
+	 	}
+	}
 }
+
+.dropdown-item:hover {
+		font-weight: bold;
+        text-decoration: none;
+        background-color: transparent !important;
+  }
 
 
 .span-line {
@@ -109,7 +125,7 @@ h5 {
 	background-image: url("/images/hero-img.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 1700px;
+	background-size: 1600px;
 	position: relative;
 	background-size: cover;
 	background-color: #fff;
@@ -133,8 +149,8 @@ h5 {
 	margin-top: 10%;
 
 	.products-wrapper-txt-right img {
-		transform: translateX(-50%);
-		margin-top: -25%;
+		transform: translateX(-10%);
+		margin-top: -10%;
 }
 	.products-wrapper-txt-left {
 		margin-bottom: 20%;
@@ -147,10 +163,10 @@ h5 {
 }
 	.products-wrapper-skyphone {
 		margin-bottom: 20%;
-		margin-top: 20%;
+		margin-top: 30%;
 	img {
-		transform: translateX(-10%);
-		margin-top: -25%;
+		transform: translateX(-3%);
+		margin-top: -30%;
 	}	
 }
 }
@@ -325,8 +341,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -335,8 +351,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -345,8 +361,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -355,8 +371,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -366,8 +382,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 .btn-default:hover {
@@ -375,8 +391,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -385,8 +401,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -395,8 +411,8 @@ h5 {
 	background-color: #fff;
 	color: #2a57be;
 	border: solid #2a57be 1px;
-	min-width: 50%;
-	max-width: 50%;
+	min-width: 30%;
+	max-width: 30%;
 	border-radius: 0;
 }
 
@@ -406,7 +422,7 @@ h5 {
 	text-transform: uppercase;
 	border: solid #fff 1px;
 	min-width: 130px;
-	max-width: 40px;
+	max-width: 44px;
 	border-radius: 0;
 }
 .btn-contact:hover {
@@ -415,7 +431,7 @@ h5 {
 	text-transform: uppercase;
 	border: solid #fff 1px;
 	min-width: 130px;
-	max-width: 40px;
+	max-width: 44px;
 	border-radius: 0;
 }
 
@@ -425,7 +441,7 @@ h5 {
 	text-transform: uppercase;
 	border: solid #fff 1px;
 	min-width: 130px;
-	max-width: 40px;
+	max-width: 44px;
 	border-radius: 0;
 }
 
@@ -435,7 +451,7 @@ h5 {
 	text-transform: uppercase;
 	border: solid #fff 1px;
 	min-width: 130px;
-	max-width: 40px;
+	max-width: 44px;
 	border-radius: 0;
 }
 

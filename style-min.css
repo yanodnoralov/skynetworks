@@ -7447,6 +7447,21 @@ h5 {
 
 .navbar {
   background: transparent !important; }
+  .navbar .dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-color: transparent !important;
+    border: none; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: #fff; }
+
+.dropdown-item:hover {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent !important; }
 
 .span-line {
   display: block;
@@ -7465,7 +7480,7 @@ h5 {
   background-image: url("/images/hero-img.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1700px;
+  background-size: 1600px;
   position: relative;
   background-size: cover;
   background-color: #fff; }
@@ -7485,9 +7500,9 @@ h5 {
   margin-bottom: 10%;
   margin-top: 10%; }
   .products-wrapper .products-wrapper-txt-right img {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    margin-top: -25%; }
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    margin-top: -10%; }
   .products-wrapper .products-wrapper-txt-left {
     margin-bottom: 20%;
     margin-top: 20%; }
@@ -7497,11 +7512,11 @@ h5 {
       margin-top: -25%; }
   .products-wrapper .products-wrapper-skyphone {
     margin-bottom: 20%;
-    margin-top: 20%; }
+    margin-top: 30%; }
     .products-wrapper .products-wrapper-skyphone img {
-      -webkit-transform: translateX(-10%);
-              transform: translateX(-10%);
-      margin-top: -25%; }
+      -webkit-transform: translateX(-3%);
+              transform: translateX(-3%);
+      margin-top: -30%; }
 
 .our-services-wrapper {
   background-image: url("/images/about-us-seperator.png"), url("/images/services-background-img.png");
@@ -7642,8 +7657,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-primary:hover {
@@ -7651,8 +7666,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-primary:active {
@@ -7660,8 +7675,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-primary:visited {
@@ -7669,8 +7684,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-default {
@@ -7678,8 +7693,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-default:hover {
@@ -7687,8 +7702,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-default:active {
@@ -7696,8 +7711,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-default:visited {
@@ -7705,8 +7720,8 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 30%;
   border-radius: 0; }
 
 .btn-contact {
@@ -7715,7 +7730,7 @@ h5 {
   text-transform: uppercase;
   border: solid #fff 1px;
   min-width: 130px;
-  max-width: 40px;
+  max-width: 44px;
   border-radius: 0; }
 
 .btn-contact:hover {
@@ -7724,7 +7739,7 @@ h5 {
   text-transform: uppercase;
   border: solid #fff 1px;
   min-width: 130px;
-  max-width: 40px;
+  max-width: 44px;
   border-radius: 0; }
 
 .btn-contact:active {
@@ -7733,7 +7748,7 @@ h5 {
   text-transform: uppercase;
   border: solid #fff 1px;
   min-width: 130px;
-  max-width: 40px;
+  max-width: 44px;
   border-radius: 0; }
 
 .btn-contact:visited {
@@ -7742,7 +7757,7 @@ h5 {
   text-transform: uppercase;
   border: solid #fff 1px;
   min-width: 130px;
-  max-width: 40px;
+  max-width: 44px;
   border-radius: 0; }
 
 /*

@@ -6642,6 +6642,10 @@ h1	{
 		color: red;
 	}
 }*/
+img {
+  max-width: 100%;
+  height: auto; }
+
 body {
   font-size: 19px;
   color: #686868; }
@@ -6682,13 +6686,40 @@ h5 {
     bottom: -1px;
     left: 0; }
 
+.navbar {
+  background: transparent !important; }
+  .navbar .dropdown-menu {
+    left: 50%;
+    right: auto;
+    text-align: center;
+    transform: translate(-50%, 0);
+    background-color: transparent !important;
+    border: none; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: #fff; }
+
+.dropdown-item:hover {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent !important; }
+
+.span-line {
+  display: block;
+  background-color: #2a57be;
+  width: 25px;
+  height: 3px;
+  border-radius: 5px;
+  margin-top: 25px; }
+
+.span-line-float {
+  float: right; }
+
 .hero-wrapper {
   padding-top: 270px;
   padding-bottom: 225px;
   background-image: url("/images/hero-img.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1700px;
   position: relative;
   background-size: cover;
   background-color: #fff; }
@@ -6708,20 +6739,20 @@ h5 {
   margin-bottom: 10%;
   margin-top: 10%; }
   .products-wrapper .products-wrapper-txt-right img {
-    transform: translateX(-50%);
-    margin-top: -25%; }
+    transform: translateX(-10%);
+    margin-top: -10%; }
   .products-wrapper .products-wrapper-txt-left {
     margin-bottom: 20%;
     margin-top: 20%; }
     .products-wrapper .products-wrapper-txt-left img {
-      transform: translateX(55%);
-      margin-top: -25%; }
+      transform: translateX(20%);
+      margin-top: 10%; }
   .products-wrapper .products-wrapper-skyphone {
     margin-bottom: 20%;
-    margin-top: 20%; }
+    margin-top: 30%; }
     .products-wrapper .products-wrapper-skyphone img {
-      transform: translateX(-10%);
-      margin-top: -25%; }
+      transform: translateX(-3%);
+      margin-top: -30%; }
 
 .our-services-wrapper {
   background-image: url("/images/about-us-seperator.png"), url("/images/services-background-img.png");
@@ -6799,12 +6830,6 @@ h5 {
   padding-bottom: 100px;
   background-color: white; }
 
-.footer-vertical-padding {
-  padding-top: 300px;
-  margin-top: -100px;
-  padding-bottom: 100px;
-  background-color: #fbfdfd; }
-
 .offset-double-img-mod img {
   border-bottom-right-radius: 60px;
   transform: translateX(-180px); }
@@ -6831,9 +6856,15 @@ h5 {
 .contact-us-wrapper {
   background-image: url("/images/contact-map.png"), url("images/behind-map-img.png");
   background-repeat: no-repeat,      	no-repeat,      	no-repeat;
-  background-position: left 75% bottom 40%,   		left 75% bottom 100%;
+  background-position: left 130% bottom 40%,   		left 130% bottom 100%;
   background-size: 1100px,   		100%;
   background-color: #fff; }
+
+.footer-vertical-padding {
+  padding-top: 300px;
+  margin-top: -250px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(rgba(246, 250, 251, 0.5), rgba(246, 250, 251, 0.5)); }
 
 .contact-form {
   transform: translateX(-25px);
@@ -6849,8 +6880,9 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 40px;
   border-radius: 0; }
 
 .btn-primary:hover {
@@ -6858,8 +6890,9 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 40px;
   border-radius: 0; }
 
 .btn-primary:active {
@@ -6867,8 +6900,9 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 40px;
   border-radius: 0; }
 
 .btn-primary:visited {
@@ -6876,44 +6910,28 @@ h5 {
   background-color: #fff;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 40px;
   border-radius: 0; }
 
-.btn-default {
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
   float: left;
-  background-color: #fff;
+  background-color: none;
   color: #2a57be;
   border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 40px;
   border-radius: 0; }
 
-.btn-default:hover {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
-  border-radius: 0; }
-
-.btn-default:active {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
-  border-radius: 0; }
-
-.btn-default:visited {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 50%;
-  max-width: 50%;
+.btn-contact, .btn-contact:hover, .btn-contact:active, .btn-contact:visited {
+  background-color: transparent !important;
+  color: #fff;
+  text-transform: uppercase;
+  border: solid #fff 1px;
+  min-width: 130px;
+  max-width: 44px;
   border-radius: 0; }
 
 /*
@@ -6943,4 +6961,10 @@ h5 {
     margin-top: 150px; }
   .contact-form {
     transform: translateX(-25px);
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .our-services-wrapper {
+    background-position: center top 0%, 		  		center bottom 90%;
+    background-size: 1900px, 1900px;
+    background-color: #fff; }
+  .products-wrapper .products-wrapper-skyphone img {
+    margin-top: 0px; } }

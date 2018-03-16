@@ -5044,7 +5044,7 @@
 		},
 	"\/Images\/contact-map.png": {
 		"ft": 32768,
-		"iS": 195866,
+		"iS": 184296,
 		"oA": 0,
 		"oAP": "\/Images\/contact-map.png",
 		"oF": 0,
@@ -5099,7 +5099,7 @@
 		},
 	"\/Images\/hero-img.png": {
 		"ft": 32768,
-		"iS": 3100033,
+		"iS": 2145706,
 		"oA": 0,
 		"oAP": "\/Images\/hero-img.png",
 		"oF": 0,
@@ -5113,28 +5113,6 @@
 		"iS": 30387,
 		"oA": 0,
 		"oAP": "\/Images\/lcr.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/Images\/Logo.png": {
-		"ft": 32768,
-		"iS": 2940,
-		"oA": 0,
-		"oAP": "\/Images\/Logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/Images\/Menuicon.png": {
-		"ft": 32768,
-		"iS": 270,
-		"oA": 0,
-		"oAP": "\/Images\/Menuicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5157,6 +5135,17 @@
 		"iS": 7271,
 		"oA": 0,
 		"oAP": "\/Images\/mobile-development.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Images\/phone-app-optimized.png": {
+		"ft": 32768,
+		"iS": 271584,
+		"oA": 0,
+		"oAP": "\/Images\/phone-app-optimized.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5197,7 +5186,7 @@
 		},
 	"\/Images\/Sky-Dance-image.png": {
 		"ft": 32768,
-		"iS": 234778,
+		"iS": 435672,
 		"oA": 0,
 		"oAP": "\/Images\/Sky-Dance-image.png",
 		"oF": 0,
@@ -5208,7 +5197,7 @@
 		},
 	"\/Images\/Sky-Gateways-image.png": {
 		"ft": 32768,
-		"iS": 553908,
+		"iS": 305230,
 		"oA": 0,
 		"oAP": "\/Images\/Sky-Gateways-image.png",
 		"oF": 0,
@@ -5219,7 +5208,7 @@
 		},
 	"\/Images\/Sky-Phone-image.png": {
 		"ft": 32768,
-		"iS": 1130567,
+		"iS": 1201736,
 		"oA": 0,
 		"oAP": "\/Images\/Sky-Phone-image.png",
 		"oF": 0,
@@ -5230,7 +5219,7 @@
 		},
 	"\/Images\/Sky-Session-image.png": {
 		"ft": 32768,
-		"iS": 532957,
+		"iS": 131726,
 		"oA": 0,
 		"oAP": "\/Images\/Sky-Session-image.png",
 		"oF": 0,
@@ -5241,7 +5230,7 @@
 		},
 	"\/Images\/skypbx-image.png": {
 		"ft": 32768,
-		"iS": 304785,
+		"iS": 497431,
 		"oA": 0,
 		"oAP": "\/Images\/skypbx-image.png",
 		"oF": 0,
@@ -5425,7 +5414,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 540579528,
-	"displayValue": "Programming",
+	"displayValue": "sky-networks-git",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange"
 	},

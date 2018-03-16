@@ -7405,6 +7405,10 @@ h1	{
 		color: red;
 	}
 }*/
+img {
+  max-width: 100%;
+  height: auto; }
+
 body {
   font-size: 19px;
   color: #686868; }
@@ -7480,7 +7484,6 @@ h5 {
   background-image: url("/images/hero-img.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1600px;
   position: relative;
   background-size: cover;
   background-color: #fff; }
@@ -7693,9 +7696,9 @@ h5 {
   min-height: 40px;
   border-radius: 0; }
 
-.btn-default {
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
   float: left;
-  background-color: #fff;
+  background-color: none;
   color: #2a57be;
   border: solid #2a57be 1px;
   min-width: 30%;
@@ -7703,64 +7706,7 @@ h5 {
   min-height: 40px;
   border-radius: 0; }
 
-.btn-default:hover {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 30%;
-  max-width: 40%;
-  min-height: 40px;
-  border-radius: 0; }
-
-.btn-default:active {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 30%;
-  max-width: 40%;
-  min-height: 40px;
-  border-radius: 0; }
-
-.btn-default:visited {
-  float: left;
-  background-color: #fff;
-  color: #2a57be;
-  border: solid #2a57be 1px;
-  min-width: 30%;
-  max-width: 40%;
-  min-height: 40px;
-  border-radius: 0; }
-
-.btn-contact {
-  background-color: transparent !important;
-  color: #fff;
-  text-transform: uppercase;
-  border: solid #fff 1px;
-  min-width: 130px;
-  max-width: 44px;
-  border-radius: 0; }
-
-.btn-contact:hover {
-  background-color: transparent !important;
-  color: #fff;
-  text-transform: uppercase;
-  border: solid #fff 1px;
-  min-width: 130px;
-  max-width: 44px;
-  border-radius: 0; }
-
-.btn-contact:active {
-  background-color: transparent !important;
-  color: #fff;
-  text-transform: uppercase;
-  border: solid #fff 1px;
-  min-width: 130px;
-  max-width: 44px;
-  border-radius: 0; }
-
-.btn-contact:visited {
+.btn-contact, .btn-contact:hover, .btn-contact:active, .btn-contact:visited {
   background-color: transparent !important;
   color: #fff;
   text-transform: uppercase;

@@ -37,6 +37,11 @@ h1	{
 	}
 }*/
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 body {
 	font-size: 19px;
 	color: $text-color;
@@ -125,7 +130,6 @@ h5 {
 	background-image: url("/images/hero-img.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 1600px;
 	position: relative;
 	background-size: cover;
 	background-color: #fff;
@@ -151,30 +155,29 @@ h5 {
 	.products-wrapper-txt-right img {
 		transform: translateX(-10%);
 		margin-top: -10%;
-}
+	}
 	.products-wrapper-txt-left {
 		margin-bottom: 20%;
 		margin-top: 20%;
-
-	img {
-		transform: translateX(20%);
-		margin-top: 10%;
-}
-}
+		img {
+			transform: translateX(20%);
+			margin-top: 10%;
+		}
+	}
 	.products-wrapper-skyphone {
-		margin-bottom: 20%;
-		margin-top: 30%;
-	img {
-		transform: translateX(-3%);
-		margin-top: -30%;
-	}	
-}
+			margin-bottom: 20%;
+			margin-top: 30%;
+			img {
+				transform: translateX(-3%);
+				margin-top: -30%;
+			}	
+	}
 }
 
 .our-services-wrapper  {
-  background-image: url("/images/about-us-seperator.png"),
+	background-image: url("/images/about-us-seperator.png"),
      	url("/images/services-background-img.png");
-  background-repeat: no-repeat;
+	 background-repeat: no-repeat;
   background-position:
     	center top 0%,
   		center bottom 70%;
@@ -380,19 +383,9 @@ h5 {
 }
 
 
-.btn-default {
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
 	float: left;
-	background-color: #fff;
-	color: #2a57be;
-	border: solid #2a57be 1px;
-	min-width: 30%;
-	max-width: 40%;
-	min-height: 40px;
-	border-radius: 0;
-}
-.btn-default:hover {
-	float: left;
-	background-color: #fff;
+	background-color: none;
 	color: #2a57be;
 	border: solid #2a57be 1px;
 	min-width: 30%;
@@ -401,58 +394,7 @@ h5 {
 	border-radius: 0;
 }
 
-.btn-default:active {
-	float: left;
-	background-color: #fff;
-	color: #2a57be;
-	border: solid #2a57be 1px;
-	min-width: 30%;
-	max-width: 40%;
-	min-height: 40px;
-	border-radius: 0;
-}
-
-.btn-default:visited {
-	float: left;
-	background-color: #fff;
-	color: #2a57be;
-	border: solid #2a57be 1px;
-	min-width: 30%;
-	max-width: 40%;
-	min-height: 40px;
-	border-radius: 0;
-}
-
-.btn-contact {
-	background-color: rgba(0, 0, 0, 0.0) !important;
-	color: #fff;
-	text-transform: uppercase;
-	border: solid #fff 1px;
-	min-width: 130px;
-	max-width: 44px;
-	border-radius: 0;
-}
-.btn-contact:hover {
-	background-color: rgba(0, 0, 0, 0.0) !important;
-	color: #fff;
-	text-transform: uppercase;
-	border: solid #fff 1px;
-	min-width: 130px;
-	max-width: 44px;
-	border-radius: 0;
-}
-
-.btn-contact:active {
-	background-color: rgba(0, 0, 0, 0.0) !important;
-	color: #fff;
-	text-transform: uppercase;
-	border: solid #fff 1px;
-	min-width: 130px;
-	max-width: 44px;
-	border-radius: 0;
-}
-
-.btn-contact:visited {
+.btn-contact, .btn-contact:hover, .btn-contact:active, .btn-contact:visited {
 	background-color: rgba(0, 0, 0, 0.0) !important;
 	color: #fff;
 	text-transform: uppercase;
